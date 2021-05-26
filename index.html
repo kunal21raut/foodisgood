@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Is Good</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+      <div class="container flex justify-between items-center">
+          <div class="icons">
+              <a href="#"><img src="./icons/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="./icons/instagram.svg" alt=""></a>
+              <a href="#"><img src="./icons/twitter.svg" alt=""></a>
+              <a href="#"><img src="./icons/google.svg" alt=""></a>
+              <a href="#"><img src="./icons/search.svg" alt=""></a>
+          </div>
+
+          <div class="auth flex justify-between items-center">
+            <div>
+              
+              <img src="./icons/user-icon.svg" alt="">
+              <a href="login.html">Log IN</a>
+             
+              <!-- modal Login Html starts here-->
+              <!-- modal login html ends here -->
+
+            </div>
+            <span class="divider">|</span>
+
+            
+            <div>
+              
+              <img src="./icons/edit.svg" alt="">
+              <a href="register.html">Register Now</a>
+            
+            </div>
+            <span class="divider">|</span>
+
+            <div>
+              
+              <img src="./icons/cart.svg" alt="">
+              <a href="cart.html">0 Items - ($0.00)</a>
+            
+            </div>
+            <div class="themeSwitch">
+                <button onclick="switchTheme()"> Switch Theme</button>
+            </div>
+          
+        </div>
+
+  </header>
+
+
+  <nav>
+    <!-- top nabar includes logo & info starts here -->
+    <div class="top">
+      <div class="container flex justify-between items-center">
+        
+        <div class="contact flex justify-between items-center">
+          <img src="./icons/phone.svg" alt="phone">
+
+          <div>
+            <h5>Call Us : (+91) 123 456 7890</h5>
+            <h6>E-mail  : support@foodisgood.com </h6>
+          </div>
+        
+        </div>
+
+        <div class="logo">
+          <img src="./images/logo.jpg" height="56px" width="184px" alt="foodisgood logo">
+        </div>
+
+        <div class="time flex items-center">
+          <img src="./icons/clock.svg" alt="phone">
+
+          <div>
+            <h5>Working Hours :</h5>
+            <h6>Mon - Sat (8:00 AM - 11:00 PM)</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top Navbar ends here  -->
+    <!-- Bottom Navbar Starts Here -->
+
+    <div class="navbar magic-shadow">
+      <div class="container flex items-center justify-center">
+        <a href="#" class="active">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <!-- <a href="#">Shop</a> -->
+        <a href="#services">Services</a>
+        <a href="#">Gallery</a>
+        <a href="#contactus">Contact Us</a>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero flex items-center">
+    <div class="container">
+      <div class="welcome flex items-center">
+      <span>Welcome To </span>
+      <img src="./images/logo.jpg" height="56px" width="180px" alt="">
+    </div>
+
+    <h1>Best & Fresh You Will Find <span>@foodisgood</span> </h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus repellendus id non nam vero, sunt a repellat.</p>
+
+      <div>
+        <button class="btn btn-primary">Read More</button>
+        <button class="btn btn-secondary">Shop Now</button>
+      </div>
+      <div class="hero-img">
+        <img src="./images/straw.png" alt="">
+      </div>
+  </div>
+  </header>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  
+  <section class="top-products">
+
+    <div id="products" class="container">
+      <h1 class="section-heading">Top Products</h1>
+      <div class="slider">
+
+        <button class="slider-btn prev-btn"><img src="./icons/pre.svg" alt=""></button>
+        <button class="slider-btn next-btn"><img src="./icons/next.svg" alt=""></button>
+
+        <div class="food-slider">
+          <!-- one food card starts here -->
+          <div class="food-card">
+            <div class="product-image flex items-center justify-center">
+              <img src="./images/grapes.jpg" alt="">
+            
+            </div>
+            <hr>
+
+            <div>
+              <h2 class="text-center">Grapes</h2>
+              <div class="stars flex justify-center items-center">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/star-grey.svg" alt="">
+                <img src="./icons/star-grey.svg" alt="">
+              </div>
+
+              <div class="price text-center">
+                $ 2.50
+              </div>
+            <div class="flex justify-center">
+              <button>
+                <img src="./icons/cart-2.svg" alt="">
+                <span>Add to cart</span>
+              </button>
+            </div>
+            </div>
+          </div>
+          <!-- one food card Ends here -->
+
+          <div class="food-card">
+            <div class="product-image flex items-center justify-center">
+              <img src="./images/apple.jpg" alt="">
+            
+            </div>
+            <hr>
+
+            <div>
+              <h2 class="text-center">Apples</h2>
+              <div class="stars flex justify-center items-center">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/star-grey.svg" alt="">
+                <img src="./icons/star-grey.svg" alt="">
+              </div>
+
+              <div class="price text-center">
+                $ 3.50
+              </div>
+            <div class="flex justify-center">
+              <button>
+                <img src="./icons/cart-2.svg" alt="">
+                <span>Add to cart</span>
+              </button>
+            </div>
+            </div>
+          </div>
+          <div class="food-card">
+            <div class="product-image flex items-center justify-center">
+              <img src="./images/rasberry.png" alt="">
+            
+            </div>
+            <hr>
+
+            <div>
+              <h2 class="text-center">Rasberry</h2>
+              <div class="stars flex justify-center items-center">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/start-filled.svg" alt="">
+                <img src="./icons/star-grey.svg" alt="">
+                <img src="./icons/star-grey.svg" alt="">
+              </div>
+
+              <div class="price text-center">
+                $ 2.50
+              </div>
+            <div class="flex justify-center">
+              <button>
+                <img src="./icons/cart-2.svg" alt="">
+                <span>Add to cart</span>
+              </button>
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="text-center btn-wrapper">
+        <button class="btn btn-secondary"><a href="allprod.html" style="text-decoration: none;">View More</a> </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-foodisgood">
+    <div class="container">
+      <h1 class="section-heading">About foodisgood</h1>
+      <div class="about-wrap flex">
+        <div class="flex-1">
+          <img src="./images/yogurt.png" alt="">
+        </div>
+        <div class="flex-1">
+          <h2><span>foodisgood</span> is better known for quality and Fresh Fruit & Vegetables.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque omnis accusamus provident impedit necessitatibus porro laboriosam non officia ipsam mollitia enim perferendis harum ipsum, nesciunt totam ea laudantium molestiae suscipit ipsa consequuntur aliquam sint. Veritatis!</p>
+
+          <button class="btn btn-secondary">Read More</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="services" class="our-services">
+    <div class="container">
+      <h1 class="section-heading">Our Services</h1>
+
+      <div class="card-wrapper flex">
+        <div class="service-card">
+          <img class="icon" src="./icons/transport.svg" alt="">
+          <h2>Free Home Delivery</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam voluptas saepe sed voluptatem !</p>
+
+          <button class="btn btn-secondary">Read More</button>
+        </div>
+
+        <div class="service-card">
+          <img class="icon" src="./icons/bag.svg" alt="">
+          <h2 class="text-primary">7 Days Refund Policy</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam voluptas saep sed voluptatem !
+          </p>
+
+          <button class="btn btn-primary">Read More</button>
+        </div>
+
+        <div class="service-card">
+          <img class="icon" src="./icons/usd.svg" alt="">
+          <h2>Money Back Gauranteed</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam voluptas saepe sed voluptatem !</p>
+
+          <button class="btn btn-secondary">Read More</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="big-deal">
+    <div class="container">
+      <h1 class="section-heading text-pure">Big Deals of the Weak</h1>
+      <div class="timer">
+        <div>
+          <span id="days">02</span>
+          <span>Days</span>
+        </div>
+        <div>
+          <span id="hours"></span>
+          <span>Hours</span>
+        </div>
+        <div>
+          <span id="minutes"></span>
+          <span>Minutes</span>
+        </div>
+        <div>
+          <span id="seconds"></span>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <section id="blog" class="latest-news">
+    <div class="container">
+      <h1 class="section-heading">Latest News from Blog</h1>
+
+      <div class="article-wrapper">
+        <article class="card">
+          <div>
+            <img src="./images/donut.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <div class="post-meta flex items-center justify-between">
+              <span>December 22, 2020</span>
+
+              <div>
+                <span>Posted by <strong>foodisgood</strong></span>
+                <span class="comment-count">12 Comments</span>
+              </div>
+            </div>
+
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt odio odit ex. Deleniti ratione quo iure beatae vitae, quidem animi impedit consequuntur obcaecati provident voluptates voluptate aut veritatis assumenda ipsa!</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div>
+            <img src="./images/coffee.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <div class="post-meta flex items-center justify-between">
+              <span>December 28,2020</span>
+
+              <div>
+                <span>Posted by <strong>foodisgood</strong></span>
+                <span class="comment-count">16 Comments</span>
+              </div>
+            </div>
+
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt odio odit ex. Deleniti ratione quo iure beatae vitae, quidem animi impedit consequuntur obcaecati provident voluptates voluptate aut veritatis assumenda ipsa!</p>
+          </div>
+        </article>
+
+
+
+      </div>
+      <div class="text-center btn-wrapper">
+        <button class="btn btn-secondary">View All</button>
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <section id="subscribe" class="subscribe">
+    <div class="container flex items-center">
+      <div>
+        <img src="./images/rasberry.png" alt="">
+      </div>
+
+      <div>
+        <h1>Subscribe to Our Newsletter</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam.</p>
+
+        <div class="input-wrap">
+          <input type="email" name="email" placeholder="email@foodisgood.online">
+          <button>Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contactus" class="contact-us flex">
+    <div class="contact-info-wrapper">
+      <h1 class="section-heading">Contact Us</h1>
+
+      <div class="contact-info">
+        <div>
+          <div>
+            <img src="./icons/phone-2.svg" alt="">
+
+            <div>
+              <span> Call Us</span>
+              <span>(+91) 123 456 7890</span>
+            </div>
+          </div>
+          <div>
+            <img src="./icons/bag-2.svg" alt="">
+
+            <div>
+              <span>E-mail :</span>
+              <span>support@foodisgood.com</span>
+            </div>
+          </div>
+          <div>
+            <img src="./icons/clock-2.svg" alt="">
+
+            <div>
+              <span>Working Hours:</span>
+              <span>Mon - Sat (8:00 AM - 11:00 PM)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d878.3491914544345!2d78.98455960285574!3d21.10004392349683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd49524c5451b35%3A0x92453c123c1c5923!2sWanadongri%2C%20Nildoh%2C%20Nagpur%2C%20Maharashtra%20440016!5e0!3m2!1sen!2sin!4v1609150919149!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </section>
+ <footer>
+   <div class="container">
+     <div class="box">
+       <h3>About Us</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis accusamus dolor!</p>
+       <button class="btn btn-secondary">Read More</button>
+     </div>
+     <div class="box">
+       <h3>Quick Links</h3>
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Products</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Gallery</a></li>
+         <li><a href="#">Contact Us</a></li>
+       </ul>
+     </div>
+     <div class="box">
+       <h3>Follow Us</h3>
+       <div>
+       <ul>
+         <li>
+           <a href="#">
+             <img src="./icons/facebook.svg" alt="">
+             <span>Facebook</span>
+           </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/twitter.svg" alt="">
+              <span>Twitter</span>
+            </a>
+           </li>
+           <li>
+            <a href="#">
+              <img src="./icons/instagram.svg" alt="">
+              <span>Instagram</span>
+            </a>
+           </li>
+           <li>
+            <a href="#">
+              <img src="./icons/google.svg" alt="">
+              <span>Google</span>
+            </a>
+           </li>
+
+       </ul>
+      </div>
+     </div>
+
+     <div class="box instagram-api">
+       <h3>Instagram</h3>
+       <div class="post-wrapper">
+         <div>
+           <img src="./images/food-table.jpg" alt="">
+            
+         </div>
+         <div>
+          <img src="./images/food-table.jpg" alt="">
+          
+        </div>
+        <div>
+          <img src="./images/food-table.jpg" alt="">
+          
+        </div>
+        <div>
+          <img src="./images/food-table.jpg" alt="">
+          
+        </div>
+        <div>
+          <img src="./images/food-table.jpg" alt="">
+          
+        </div>
+        <div>
+          <img src="./images/food-table.jpg" alt="">
+          
+        </div>
+       </div>
+     </div>
+   </div>
+ </footer>
+
+ <footer class="copyright">
+   <div>
+     Copyright &copy; 2021 | All rights reserved by <a href="#">Code Blooded</a>
+   </div>
+   <a onclick="window.print()" download="onclick='window.print()'">Print This Page</a>
+ </footer>
+ 
+ 
+ 
+ 
+ <script src="javascript/app.js"></script>
+ 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+</body>
+</html>
